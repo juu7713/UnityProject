@@ -5,7 +5,8 @@ using UnityEngine;
 public class CameraMove : MonoBehaviour
 {
 
-    public GameObject player;
+    private GameObject player;
+    public float cameraPosition = 15;
 
     private Vector3 position = Vector3.zero;
 
@@ -13,7 +14,8 @@ public class CameraMove : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
-        position = this.gameObject.transform.position;
+        position = new Vector3(0, cameraPosition, -cameraPosition);
+        this.transform.rotation = Quaternion.Euler(45, 0, 0);
     }
 
     // Update is called once per frame
