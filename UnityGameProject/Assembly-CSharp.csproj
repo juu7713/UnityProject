@@ -60,20 +60,20 @@
     <Analyzer Include="C:\Program Files\Unity Hub\2022.3.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\UpDownWall.cs" />
-    <Compile Include="Assets\Script\camera.cs" />
-    <Compile Include="Assets\Script\Camera Move.cs" />
-    <Compile Include="Assets\Script\rotation.cs" />
-    <Compile Include="Assets\Script\Spike.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
-    <Compile Include="Assets\Script\MovableWall.cs" />
-    <Compile Include="Assets\Script\Teleportation.cs" />
-    <Compile Include="Assets\Script\Shooter.cs" />
-    <Compile Include="Assets\Script\Bullet.cs" />
-    <Compile Include="Assets\Script\Player.cs" />
-    <Compile Include="Assets\Script\VanishingTile.cs" />
-    <Compile Include="Assets\Script\Player Controller.cs" />
-    <Compile Include="Assets\Script\RotatingBar.cs" />
+    <Compile Include="Assets\Scripts\RotatingBar.cs" />
+    <Compile Include="Assets\Scripts\MovableWall.cs" />
+    <Compile Include="Assets\Scripts\rotation.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Camera Move.cs" />
+    <Compile Include="Assets\Scripts\UpDownWall.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Player Controller.cs" />
+    <Compile Include="Assets\Scripts\camera.cs" />
+    <Compile Include="Assets\Scripts\Shooter.cs" />
+    <Compile Include="Assets\Scripts\VanishingTile.cs" />
+    <Compile Include="Assets\Scripts\Teleportation.cs" />
+    <Compile Include="Assets\Scripts\Spike.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
